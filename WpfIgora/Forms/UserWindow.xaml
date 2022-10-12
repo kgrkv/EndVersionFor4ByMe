@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfIgora.Forms.UserWindow"
+         Icon="C:\Users\stud\source\repos\WpfIgora\WpfIgora\Image\logo.png "
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfIgora.Forms"
+        mc:Ignorable="d"
+        Title="Аккаунт пользователя" Height="450" Width="800" FontFamily="Comic Sans MS" FontSize="15">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Grid.ColumnSpan="2" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="5,5,0,0">
+            <Button  x:Name="btEnter" Click="btEnter_Click" MinHeight="30" MinWidth="125" Height="35" Width="130" Content="Выйти" Margin="0,0,0,5"/>
+        </StackPanel>
+        <StackPanel>
+            <Image  MinHeight="80" MinWidth="80" Height="85" Width="85" Source = "C:\Users\stud\source\repos\WpfIgora\WpfIgora\Image\Миронов.jpeg" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,5,0,0"/>
+             <TextBlock Name="UserSurname" MinHeight="20" MinWidth="100" Height="21" Width="110" Margin="5,1,1,1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <TextBlock Name="UserName" MinHeight="20" MinWidth="100" Height="21" Width="110" Margin="5,1,1,1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <TextBlock Name="UserFathername" MinHeight="20" MinWidth="100" Height="21" Width="110" Margin="5,1,1,1" HorizontalAlignment="Left" VerticalAlignment="Center" />
+            <TextBlock Name="UserDataBirth"  MinHeight="20" MinWidth="100" Height="21" Width="110" Margin="5,1,1,1" HorizontalAlignment="Left" />
+        </StackPanel>
+    </Grid>
+</Window>
